@@ -4,7 +4,7 @@ from src.drink import *
 
 class TestPub(unittest.TestCase):
     def setUp(self):
-        gin_drink = Drink("laser gin", 7)
+        gin_drink = Drink("laser gin", 7, 35)
         drinks = [gin_drink]
         self.pub = Pub("Extravaganza", drinks)
 
